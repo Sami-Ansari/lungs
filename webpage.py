@@ -172,7 +172,7 @@ if selected == "Lung Cancer Prediction":
         fig, ax = plt.subplots()
         ax.bar(["Low Risk", "High Risk"], [1 - prediction, prediction], color=['green', 'red'])
         ax.set_ylabel('Probability')
-        ax.set_title('Predicted Risk of Heart Disease')
+        ax.set_title('Predicted Risk of Lungs Disease')
         st.pyplot(fig)
 
 
